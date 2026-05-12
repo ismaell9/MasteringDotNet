@@ -1,0 +1,22 @@
+# Phase 3: Advanced Patterns 🧠
+
+- [ ] Separate read and write models
+- [ ] Implement MediatR pipeline behaviors
+- [ ] Add transaction behavior per command
+- [ ] Implement domain events
+- [ ] Add Redis via StackExchange.Redis
+- [ ] Implement OutputCache for response caching
+- [ ] Implement HybridCache for distributed + in-memory
+- [ ] Cache invalidation strategies
+- [ ] Add Hangfire for background processing
+- [ ] Move email sending to background job
+- [ ] Move report generation to background job
+- [ ] Add Hangfire dashboard with auth
+- [ ] Add Polly retry policies for HTTP calls
+- [ ] Add circuit breaker pattern
+- [ ] Implement timeout policies
+- [ ] Use Microsoft Resilience library
+- [ ] Add MassTransit with RabbitMQ or Azure Service Bus
+- [ ] Implement publish-subscribe for domain events
+- [ ] Implement outbox pattern for reliable messaging
+- [ ] Implement saga pattern for long-running workflows

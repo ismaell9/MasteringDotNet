@@ -1,0 +1,21 @@
+# Phase 2: Production Quality 📊
+
+- [ ] Replace log4net with Serilog
+- [ ] Configure structured logging (JSON format)
+- [ ] Add OpenTelemetry for distributed tracing
+- [ ] Export traces to Jaeger
+- [ ] Configure Prometheus metrics endpoint
+- [ ] Set up health checks UI
+- [ ] Write unit tests with xUnit
+- [ ] Use NSubstitute for mocking
+- [ ] Use Bogus for fake data generation
+- [ ] Write integration tests with WebApplicationFactory
+- [ ] Use TestContainers for real database in tests
+- [ ] Write architecture tests (layer dependencies, naming conventions)
+- [ ] Add snapshot testing with Verify
+- [ ] Implement global exception middleware
+- [ ] Use ProblemDetails for API errors
+- [ ] Implement validation error response
+- [ ] FluentValidation with automatic validation pipeline
+- [ ] Mapperly for compile-time mapping
+- [ ] Custom DTOs per use case (not shared)

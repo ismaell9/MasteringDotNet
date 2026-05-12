@@ -1,0 +1,28 @@
+# Phase 1: Foundation 🔧
+
+- [x] Create multi-project solution with Clean Architecture layers
+- [x] Configure `Directory.Build.props` for centralized MSBuild properties
+- [x] Set up project references respecting dependency flow (Domain ← Application ← Infrastructure ← Api)
+- [x] Build with zero warnings (`TreatWarningsAsErrors = true`)
+- [ ] Define entities as sealed records/classes with private constructors
+- [ ] Implement value objects with invariant validation (`Money`, `DateRange`)
+- [ ] Use factory methods (`static Create(...)`) instead of public constructors
+- [ ] Enums in dedicated folder, semantically named
+- [ ] No external dependencies (no EF, no ASP.NET)
+- [ ] Define repository interfaces (not implementations)
+- [ ] Define service interfaces
+- [ ] Implement CQRS with MediatR (Commands, Queries, Handlers)
+- [ ] Add FluentValidation for every command/query
+- [ ] Add pipeline behaviors (logging, validation, transaction)
+- [ ] Use Mapperly for DTO mapping (source-generated)
+- [ ] Set up EF Core DbContext
+- [ ] Map domain entities using Fluent API (IEntityTypeConfiguration)
+- [ ] Create and run initial migration
+- [ ] Implement repository pattern
+- [ ] Add Dapper for read-optimized queries
+- [ ] Configure Program.cs with top-level statements
+- [ ] Set up middleware pipeline (error handling, Serilog, CORS)
+- [ ] Implement controllers or FastEndpoints
+- [ ] Configure Swagger/OpenAPI
+- [ ] Add health checks endpoint
+- [ ] Configure JWT authentication and authorization
